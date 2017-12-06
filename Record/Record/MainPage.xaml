@@ -6,6 +6,7 @@
     
     
     <StackLayout>
-        <Button Text="kaeritai" />
+        <Button Text="kaeritai" 
+                Clicked="Button_Clicked"/>
     </StackLayout>
 </ContentPage>
