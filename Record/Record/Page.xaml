@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="帰りましょう" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

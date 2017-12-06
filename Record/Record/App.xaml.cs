@@ -13,7 +13,7 @@ namespace Record
         {
             InitializeComponent();
 
-            MainPage = new Record.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
