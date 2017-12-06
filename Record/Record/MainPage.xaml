@@ -8,6 +8,7 @@
     <StackLayout>
         <Button Text="kaeritai" 
                 Clicked="Button_Clicked"
+                
                 HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
