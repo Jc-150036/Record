@@ -9,12 +9,15 @@
                  Spacing="30">
 
         <StackLayout Orientation="Horizontal">
+            
             <Button Text="記録"
-                Clicked="Button_Clicked"/>
+                    Clicked="Button_Clicked"
+                    FontSize="15"/>
 
             <Button Text="保存" 
-                Clicked="Button_Clicked"
-                HorizontalOptions="End"/>
+                    Clicked="Button_Clicked"
+                    HorizontalOptions="EndAndExpand"
+                    FontSize="15"/>
         </StackLayout>
 
         <Label x:Name="label1"
@@ -32,7 +35,6 @@
 
         <Label x:Name="label2"
                Text="重量(kg)"
-               HorizontalOptions="Center"
                FontSize="25"/>
 
         <BoxView BackgroundColor="Black"
