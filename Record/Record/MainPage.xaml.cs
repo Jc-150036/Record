@@ -16,6 +16,7 @@ namespace Record
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            //画面遷移に必要
             Navigation.PushAsync(new Page());
         }
     }

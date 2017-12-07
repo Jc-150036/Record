@@ -12,7 +12,7 @@ namespace Record
         public App()
         {
             InitializeComponent();
-
+            //画面遷移に必要
             MainPage = new NavigationPage(new MainPage());
         }
 

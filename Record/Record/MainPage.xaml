@@ -7,10 +7,13 @@
     
     <StackLayout Orientation="Horizontal">
 
+        <Button Text="<記録"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="保存" 
+                Clicked="Button_Clicked"/>
+        
         <Label x:Name="label"
                Text="ベンチプレス"/>
-
-        <Button Text="帰りたい" 
-                Clicked="Button_Clicked"/>
     </StackLayout>
 </ContentPage>

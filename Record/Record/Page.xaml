@@ -4,7 +4,7 @@
              x:Class="Record.Page">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="帰りましょう" />
+            <Label Text="RecordList画面" />
             
         </StackLayout>
     </ContentPage.Content>
