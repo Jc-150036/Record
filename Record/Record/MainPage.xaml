@@ -6,20 +6,21 @@
     
     
     <StackLayout Orientation="Vertical"
-                 Spacing="50">
+                 Spacing="30">
 
         <StackLayout Orientation="Horizontal">
             <Button Text="記録"
                 Clicked="Button_Clicked"/>
 
             <Button Text="保存" 
-                Clicked="Button_Clicked"/>
+                Clicked="Button_Clicked"
+                    HorizontalOptions="End"/>
         </StackLayout>
 
         <Label x:Name="label1"
                Text="ベンチプレス"
                HorizontalOptions="Center"
-               FontSize="40"/>
+               FontSize="20"/>
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
@@ -32,23 +33,21 @@
         <Label x:Name="label2"
                Text="重量(kg)"
                HorizontalOptions="Center"
-               FontSize="40"/>
+               FontSize="10"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
         <Label x:Name="label3"
                Text="レッグ(回数)"
-               HorizontalOptions="Center"
-               FontSize="40"/>
+               FontSize="30"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
         <Label x:Name="label4"
                Text="セット数"
-               HorizontalOptions="Center"
-               FontSize="40"/>
+               FontSize="25"/>
 
     </StackLayout>
 </ContentPage>
