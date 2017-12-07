@@ -5,16 +5,21 @@
              x:Class="Record.MainPage">
     
     
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical"
+                 Spacing="50">
 
-        <Button Text="記録"
+        <StackLayout Orientation="Horizontal">
+            <Button Text="記録"
                 Clicked="Button_Clicked"/>
 
-        <Button Text="保存" 
+            <Button Text="保存" 
                 Clicked="Button_Clicked"/>
-        
+        </StackLayout>
+
         <Label x:Name="label1"
-               Text="ベンチプレス"/>
+               Text="ベンチプレス"
+               HorizontalOptions="Center"
+               FontSize="40"/>
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
@@ -25,19 +30,25 @@
                  HeightRequest="0.5"/>
 
         <Label x:Name="label2"
-               Text="重量(kg)"/>
+               Text="重量(kg)"
+               HorizontalOptions="Center"
+               FontSize="40"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
         <Label x:Name="label3"
-               Text="レッグ(回数)"/>
+               Text="レッグ(回数)"
+               HorizontalOptions="Center"
+               FontSize="40"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
         <Label x:Name="label4"
-               Text="セット数"/>
+               Text="セット数"
+               HorizontalOptions="Center"
+               FontSize="40"/>
 
     </StackLayout>
 </ContentPage>
