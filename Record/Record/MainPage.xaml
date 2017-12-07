@@ -15,5 +15,29 @@
         
         <Label x:Name="label"
                Text="ベンチプレス"/>
+        
+        <BoxView BackgroundColor="Black"
+                 HeightRequest="0.5"/>
+
+        <DatePicker Format="D" VerticalOptions="Center"/>
+
+        <BoxView BackgroundColor="Black"
+                 HeightRequest="0.5"/>
+
+        <Label x:Name="label"
+               Text="重量(kg)"/>
+
+        <BoxView BackgroundColor="Black"
+                 HeightRequest="0.5"/>
+
+        <Label x:Name="label"
+               Text="レッグ(回数)"/>
+
+        <BoxView BackgroundColor="Black"
+                 HeightRequest="0.5"/>
+
+        <Label x:Name="label"
+               Text="セット数"/>
+
     </StackLayout>
 </ContentPage>
