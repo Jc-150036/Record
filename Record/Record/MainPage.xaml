@@ -41,7 +41,7 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="200"
-                   HeightRequest="100"
+                   HeightRequest="70"
                    />
 
             <Label x:Name="KG"
@@ -59,7 +59,7 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="150"
-                   HeightRequest="100"
+                   HeightRequest="60"
                    />
             
         </StackLayout>
