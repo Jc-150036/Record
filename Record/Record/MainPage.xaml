@@ -21,7 +21,7 @@
         </StackLayout> -->
 
         <Label x:Name="label1"
-               Text="ベンチプレス"
+               Text=""
                HorizontalOptions="Center"
                FontSize="25"/>
         
@@ -40,8 +40,8 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="200"
-                   HeightRequest="70"
+                   WidthRequest="130"
+                   HeightRequest="40"
                    />
 
             <Label x:Name="KG"
@@ -58,8 +58,8 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="150"
-                   HeightRequest="60"
+                   WidthRequest="120"
+                   HeightRequest="30"
                    />
             
         </StackLayout>
@@ -74,8 +74,8 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="100"
-                   HeightRequest="50"/>
+                   WidthRequest="110"
+                   HeightRequest="20"/>
 
         </StackLayout>
 
