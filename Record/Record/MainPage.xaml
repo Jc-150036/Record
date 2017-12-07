@@ -13,7 +13,7 @@
         <Button Text="保存" 
                 Clicked="Button_Clicked"/>
         
-        <Label x:Name="label"
+        <Label x:Name="label1"
                Text="ベンチプレス"/>
         
         <BoxView BackgroundColor="Black"
@@ -24,19 +24,19 @@
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-        <Label x:Name="label"
+        <Label x:Name="label2"
                Text="重量(kg)"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-        <Label x:Name="label"
+        <Label x:Name="label3"
                Text="レッグ(回数)"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-        <Label x:Name="label"
+        <Label x:Name="label4"
                Text="セット数"/>
 
     </StackLayout>
