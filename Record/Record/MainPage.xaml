@@ -14,13 +14,13 @@
 
             <Button Text="保存" 
                 Clicked="Button_Clicked"
-                    HorizontalOptions="End"/>
+                HorizontalOptions="End"/>
         </StackLayout>
 
         <Label x:Name="label1"
                Text="ベンチプレス"
                HorizontalOptions="Center"
-               FontSize="20"/>
+               FontSize="25"/>
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
@@ -33,14 +33,14 @@
         <Label x:Name="label2"
                Text="重量(kg)"
                HorizontalOptions="Center"
-               FontSize="10"/>
+               FontSize="25"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
         <Label x:Name="label3"
                Text="レッグ(回数)"
-               FontSize="30"/>
+               FontSize="25"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
