@@ -40,8 +40,8 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="130"
-                   HeightRequest="40"
+                   WidthRequest="120"
+                   HeightRequest="10"
                    />
 
             <Label x:Name="KG"
@@ -59,7 +59,7 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="30"
+                   HeightRequest="20"
                    />
             
         </StackLayout>
@@ -74,8 +74,8 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="110"
-                   HeightRequest="20"/>
+                   WidthRequest="120"
+                   HeightRequest="25/>
 
         </StackLayout>
 
