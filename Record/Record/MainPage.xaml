@@ -23,7 +23,7 @@
         <Label x:Name="label1"
                Text=""
                HorizontalOptions="Center"
-               FontSize="25"/>
+               FontSize="15"/>
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
@@ -39,9 +39,10 @@
                Text="重量(kg)"
                FontSize="25"/>
 
-            <Entry HorizontalOptions="Center"
+            <Entry Keyboard="TelePhone"
+                   HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="10"
+                   HeightRequest="15"
                    />
 
             <Label x:Name="KG"
@@ -57,11 +58,11 @@
                Text="レッグ(回数)"
                FontSize="25"/>
 
-            <Entry Text="{Binding PricePerPerson}" Keyboard=""
+            <Entry Keyboard="Numeric"
                    HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="20"
-                   />
+                   HeightRequest="15"
+                    />
             
         </StackLayout>
 
