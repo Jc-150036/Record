@@ -75,9 +75,8 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="25/>
+                   HeightRequest="25"/>
 
         </StackLayout>
-
     </StackLayout>
 </ContentPage>
