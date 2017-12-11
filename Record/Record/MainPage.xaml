@@ -57,7 +57,8 @@
                Text="レッグ(回数)"
                FontSize="25"/>
 
-            <Entry HorizontalOptions="Center"
+            <Entry Text="{Binding PricePerPerson}" Keyboard=""
+                   HorizontalOptions="Center"
                    WidthRequest="120"
                    HeightRequest="20"
                    />
