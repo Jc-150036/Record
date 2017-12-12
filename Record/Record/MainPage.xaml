@@ -6,6 +6,7 @@
     
     
     <StackLayout Orientation="Vertical"
+                 HorizontalOptions="Center"
                  Spacing="40">
 
         <!--= <StackLayout Orientation="Horizontal">
@@ -26,7 +27,8 @@
                FontSize="15"/>
         
         <BoxView BackgroundColor="Black"
-                 HeightRequest="0.5"/>
+                 HeightRequest="0.5"
+                 WidthRequest="300"/>
 
         <Label x:Name="labelC"
                Text="日付"
@@ -34,21 +36,20 @@
                FontSize="25"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
-                        HorizontalOptions="End"
                     WidthRequest="120"
                     HeightRequest="15"/>
 
         <BoxView BackgroundColor="Black"
-                 HeightRequest="0.5"/>
+                 HeightRequest="0.5"
+                 WidthRequest="300"/>
 
         <StackLayout Orientation="Horizontal">
 
             <Label x:Name="label2"
                Text="重量(kg)"
-               FontSize="25"
-                   HorizontalOptions="Center"/>
+               FontSize="25"/>
 
-            <Entry HorizontalOptions="End"
+            <Entry HorizontalOptions="Center"
                    WidthRequest="120"
                    HeightRequest="15"
                    Keyboard ="Numeric"
@@ -57,18 +58,17 @@
 
             <Label x:Name="KG"
                    Text="kg"
-                   FontSize="25"
-                   HorizontalOptions="End"/>
+                   FontSize="25"/>
         </StackLayout>
 
         <BoxView BackgroundColor="Black"
-                 HeightRequest="0.5"/>
+                 HeightRequest="0.5"
+                 WidthRequest="300"/>
 
         <StackLayout Orientation="Horizontal">
             <Label x:Name="label3"
                Text="レッグ(回数)"
-               FontSize="25"
-                   HorizontalOptions="Center"/>
+               FontSize="25"/>
 
             <Entry HorizontalOptions="End"
                    WidthRequest="120"
@@ -78,17 +78,16 @@
         </StackLayout>
 
         <BoxView BackgroundColor="Black"
-                 HeightRequest="0.5"/>
+                 HeightRequest="0.5"
+                 WidthRequest="300"/>
 
         <StackLayout Orientation="Horizontal">
 
             <Label x:Name="label4"
                Text="セット数"
-               FontSize="25"
-                   HorizontalOptions="Center"/>
+               FontSize="25"/>
 
-            <Entry HorizontalOptions="End"
-                   WidthRequest="120"
+            <Entry WidthRequest="120"
                    HeightRequest="25"
                    Keyboard ="Numeric" />
 
