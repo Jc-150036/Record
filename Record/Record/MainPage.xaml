@@ -6,6 +6,7 @@
     
     
     <StackLayout Orientation="Vertical"
+                 HorizontalOptions="Center"
                  Spacing="40">
 
         <!--= <StackLayout Orientation="Horizontal">
@@ -28,7 +29,14 @@
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-        <DatePicker Format="D" VerticalOptions="Center"/>
+        <Label x:Name="labelC"
+               Text="日付"
+               HorizontalOptions="Center"
+               FontSize="25"/>
+
+            <DatePicker Format="D" VerticalOptions="Center"
+                    WidthRequest="120"
+                    HeightRequest="15"/>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
