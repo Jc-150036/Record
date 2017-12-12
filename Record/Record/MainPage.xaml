@@ -45,6 +45,7 @@
                    Keyboard ="Numeric"
                    />
 
+
             <Label x:Name="KG"
                    Text="kg"
                    FontSize="25"/>
@@ -60,7 +61,8 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="15" />
+                   HeightRequest="15"
+                   Keyboard ="Numeric"/>
             
         </StackLayout>
 
@@ -75,7 +77,8 @@
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="25"/>
+                   HeightRequest="25"
+                   Keyboard ="Numeric" />
 
         </StackLayout>
     </StackLayout>
