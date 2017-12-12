@@ -34,7 +34,7 @@
                FontSize="25"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
-                        HorizontalOptions="Center"
+                        HorizontalOptions="End"
                     WidthRequest="120"
                     HeightRequest="15"/>
 
@@ -48,7 +48,7 @@
                FontSize="25"
                    HorizontalOptions="Center"/>
 
-            <Entry HorizontalOptions="Center"
+            <Entry HorizontalOptions="End"
                    WidthRequest="120"
                    HeightRequest="15"
                    Keyboard ="Numeric"
@@ -58,7 +58,7 @@
             <Label x:Name="KG"
                    Text="kg"
                    FontSize="25"
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="End"/>
         </StackLayout>
 
         <BoxView BackgroundColor="Black"
@@ -70,7 +70,7 @@
                FontSize="25"
                    HorizontalOptions="Center"/>
 
-            <Entry HorizontalOptions="Center"
+            <Entry HorizontalOptions="End"
                    WidthRequest="120"
                    HeightRequest="15"
                    Keyboard ="Numeric"/>
@@ -87,7 +87,7 @@
                FontSize="25"
                    HorizontalOptions="Center"/>
 
-            <Entry HorizontalOptions="Center"
+            <Entry HorizontalOptions="End"
                    WidthRequest="120"
                    HeightRequest="25"
                    Keyboard ="Numeric" />
