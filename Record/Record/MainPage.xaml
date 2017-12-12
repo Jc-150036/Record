@@ -53,6 +53,7 @@
                    WidthRequest="120"
                    HeightRequest="15"
                    Keyboard ="Numeric"
+                   PlaceholderColor="White"
                    />
 
 
