@@ -29,15 +29,15 @@
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"
                  WidthRequest="300"/>
-
-        <Label x:Name="labelC"
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="labelC"
                Text="日付"
-               HorizontalOptions="Center"
                FontSize="25"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
-                    WidthRequest="120"
+                    WidthRequest="100"
                     HeightRequest="15"/>
+        </StackLayout>
 
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"
@@ -50,7 +50,7 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="120"
+                   WidthRequest="140"
                    HeightRequest="15"
                    Keyboard ="Numeric"
                    PlaceholderColor="White"
@@ -88,7 +88,7 @@
                Text="セット数"
                FontSize="25"/>
 
-            <Entry WidthRequest="120"
+            <Entry WidthRequest="150"
                    HeightRequest="25"
                    Keyboard ="Numeric" />
 
