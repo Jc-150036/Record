@@ -73,8 +73,7 @@
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
                    HeightRequest="15"
-                   Keyboard ="Numeric"
-                   HorizontalOptions="Center"/>
+                   Keyboard ="Numeric"/>
             
         </StackLayout>
 
