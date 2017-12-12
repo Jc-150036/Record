@@ -22,9 +22,9 @@
         </StackLayout> -->
 
         <Label x:Name="label1"
-               Text=""
+               Text=" "
                HorizontalOptions="Center"
-               FontSize="15"/>
+               FontSize="25"/>
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"
