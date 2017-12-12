@@ -35,7 +35,7 @@
                FontSize="25"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
-                    WidthRequest="100"
+                    WidthRequest="200"
                     HeightRequest="15"/>
         </StackLayout>
 
@@ -72,7 +72,7 @@
                FontSize="25"/>
 
             <Entry HorizontalOptions="End"
-                   WidthRequest="120"
+                   WidthRequest="110"
                    HeightRequest="15"
                    Keyboard ="Numeric"/>
             
