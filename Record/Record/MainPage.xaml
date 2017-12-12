@@ -6,7 +6,6 @@
     
     
     <StackLayout Orientation="Vertical"
-                 HorizontalOptions="Center"
                  Spacing="40">
 
         <!--= <StackLayout Orientation="Horizontal">
@@ -35,6 +34,7 @@
                FontSize="25"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
+                        HorizontalOptions="Center"
                     WidthRequest="120"
                     HeightRequest="15"/>
 
@@ -45,7 +45,8 @@
 
             <Label x:Name="label2"
                Text="重量(kg)"
-               FontSize="25"/>
+               FontSize="25"
+                   HorizontalOptions="Center"/>
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
@@ -56,7 +57,8 @@
 
             <Label x:Name="KG"
                    Text="kg"
-                   FontSize="25"/>
+                   FontSize="25"
+                   HorizontalOptions="Center"/>
         </StackLayout>
 
         <BoxView BackgroundColor="Black"
@@ -65,12 +67,14 @@
         <StackLayout Orientation="Horizontal">
             <Label x:Name="label3"
                Text="レッグ(回数)"
-               FontSize="25"/>
+               FontSize="25"
+                   HorizontalOptions="Center"/>
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
                    HeightRequest="15"
-                   Keyboard ="Numeric"/>
+                   Keyboard ="Numeric"
+                   HorizontalOptions="Center"/>
             
         </StackLayout>
 
@@ -81,7 +85,8 @@
 
             <Label x:Name="label4"
                Text="セット数"
-               FontSize="25"/>
+               FontSize="25"
+                   HorizontalOptions="Center"/>
 
             <Entry HorizontalOptions="Center"
                    WidthRequest="120"
