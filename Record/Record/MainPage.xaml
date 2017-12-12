@@ -6,7 +6,7 @@
     
     
     <StackLayout Orientation="Vertical"
-                 Spacing="30">
+                 Spacing="40">
 
         <!--= <StackLayout Orientation="Horizontal">
             
@@ -39,10 +39,10 @@
                Text="重量(kg)"
                FontSize="25"/>
 
-            <Entry Keyboard="TelePhone"
-                   HorizontalOptions="Center"
+            <Entry HorizontalOptions="Center"
                    WidthRequest="120"
                    HeightRequest="15"
+                   Keyboard ="Numeric"
                    />
 
             <Label x:Name="KG"
@@ -58,11 +58,9 @@
                Text="レッグ(回数)"
                FontSize="25"/>
 
-            <Entry Keyboard="Numeric"
-                   HorizontalOptions="Center"
+            <Entry HorizontalOptions="Center"
                    WidthRequest="120"
-                   HeightRequest="15"
-                    />
+                   HeightRequest="15" />
             
         </StackLayout>
 

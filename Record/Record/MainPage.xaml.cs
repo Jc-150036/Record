@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,8 +16,10 @@ namespace Record
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //画面遷移に必要
+            //��ʑJ�ڂɕK�v
             Navigation.PushAsync(new Page());
         }
+
     }
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
