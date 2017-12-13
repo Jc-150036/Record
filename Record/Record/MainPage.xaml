@@ -67,7 +67,7 @@
 
         <StackLayout Orientation="Horizontal">
             <Label x:Name="label3"
-               Text="レッグ(回数)"
+               Text="レッグ(回数)         "
                FontSize="35"/>
 
             <Entry HorizontalOptions="End"
@@ -84,7 +84,7 @@
         <StackLayout Orientation="Horizontal">
 
             <Label x:Name="label4"
-               Text="セット数"
+               Text="セット数            "
                FontSize="35"/>
 
             <Entry WidthRequest="150"
