@@ -49,7 +49,7 @@
                FontSize="35"/>
 
             <Entry HorizontalOptions="Center"
-                   WidthRequest="140"
+                   WidthRequest="130"
                    HeightRequest="15"
                    Keyboard ="Numeric"
                    PlaceholderColor="White"
@@ -71,7 +71,7 @@
                FontSize="35"/>
 
             <Entry HorizontalOptions="End"
-                   WidthRequest="110"
+                   WidthRequest="130"
                    HeightRequest="15"
                    Keyboard ="Numeric"/>
             
@@ -87,7 +87,7 @@
                Text="セット数            "
                FontSize="35"/>
 
-            <Entry WidthRequest="150"
+            <Entry WidthRequest="130"
                    HeightRequest="25"
                    Keyboard ="Numeric" />
 
