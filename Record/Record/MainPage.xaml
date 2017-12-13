@@ -6,8 +6,6 @@
     
     
     <StackLayout Orientation="Vertical"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center"
                  Spacing="40">
 
         <!--= <StackLayout Orientation="Horizontal">
@@ -29,7 +27,7 @@
         
         <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"
-                 WidthRequest="300"/>
+                 WidthRequest="30000"/>
         <StackLayout Orientation="Horizontal">
             <Label x:Name="labelC"
                Text="日付"
