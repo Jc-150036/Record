@@ -30,7 +30,7 @@
                  WidthRequest="300"/>
         <StackLayout Orientation="Horizontal">
             <Label x:Name="labelC"
-               Text="日付            　　    "
+               Text="日付                "
                FontSize="35"/>
 
             <DatePicker Format="D" VerticalOptions="Center"
@@ -67,7 +67,7 @@
 
         <StackLayout Orientation="Horizontal">
             <Label x:Name="label3"
-               Text="レッグ(回数)   制   "
+               Text="レッグ(回数)      "
                FontSize="35"/>
 
             <Entry HorizontalOptions="End"
